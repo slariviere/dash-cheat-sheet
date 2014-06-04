@@ -17,13 +17,22 @@ cheatsheet do
       command 'Command-Shift-4'
       name 'Take a screenshot of an area, saves to desktop'
     end
-  entry do
+    entry do
       command 'Command-Control-Shift-3'
       name 'Take a screenshot of the screen to clipboard'
     end
-  entry do
+    entry do
      command 'Command-Control-Shift-4'
      name 'Take a screenshot of an area to the clipboard'
+    end
+  end
+
+  category do
+    id 'DNS'
+    entry do
+      Commannd 'dscacheutil'
+      name ' Complete screen, saves to desktop'
+    end
   end
   end
 end
