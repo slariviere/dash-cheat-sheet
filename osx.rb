@@ -34,5 +34,12 @@ cheatsheet do
       name ' Complete screen, saves to desktop'
     end
   end
+
+  category do
+    id 'Display'
+    entry do
+      Commannd 'Shit+Click"
+      name 'Maximise the window'
+    end
   end
 end
